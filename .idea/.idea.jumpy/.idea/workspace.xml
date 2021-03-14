@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/basket.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/basket.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

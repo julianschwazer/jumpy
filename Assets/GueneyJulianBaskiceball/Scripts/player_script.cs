@@ -29,7 +29,7 @@ public class player_script : MonoBehaviour
         if (Input.GetButtonDown("Jump") && ballIsJumpable)
         {
             rb.AddForce(new Vector3(0, jumpheight,0), ForceMode.Impulse);
-            //ballIsJumpable = false;
+            ballIsJumpable = false;
         }
         
     }
