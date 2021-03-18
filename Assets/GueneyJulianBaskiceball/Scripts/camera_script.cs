@@ -17,12 +17,12 @@ public class camera_script : MonoBehaviour
 
             
         // Old Movement - Up Force on MouseOver
-        //RaycastHit hit;
-        //var ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-        //if (Physics.Raycast(ray, out hit, maxDistance: 50) && hit.rigidbody != null)
-        //{
-        //    hit.rigidbody.AddForce(Vector3.up, ForceMode.Impulse);
-        //}
+        RaycastHit hit;
+        var ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit, maxDistance: 50) && hit.rigidbody != null)
+        {
+            hit.rigidbody.AddForce(Vector3.up, ForceMode.Impulse);
+        }
 
     }
 }

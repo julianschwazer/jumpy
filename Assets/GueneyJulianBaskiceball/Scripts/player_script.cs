@@ -22,8 +22,8 @@ public class player_script : MonoBehaviour
     {
         
         // Horizontal Movement - Left/Right with Arrow Keys
-        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        transform.Translate(horizontal, 0, 0);
+        //float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        //transform.Translate(horizontal, 0, 0);
 
         // Jump Movement - Up with Spacebar, just works when Ball is on the floor
         if (Input.GetButtonDown("Jump") && ballIsJumpable)
@@ -31,7 +31,7 @@ public class player_script : MonoBehaviour
             rb.AddForce(new Vector3(0, jumpheight,0), ForceMode.Impulse);
             ballIsJumpable = false;
         }
-        
+
     }
 
     // Set back the variable to allow another jump
