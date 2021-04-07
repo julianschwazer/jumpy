@@ -7,7 +7,9 @@
       <e p="Assets" t="Include">
         <e p="GueneyJulianBaskiceball" t="Include">
           <e p="Scripts" t="Include">
+            <e p="camera_ray_gueneyjulian.cs" t="Include" />
             <e p="camera_script.cs" t="Include" />
+            <e p="platform_script.cs" t="Include" />
             <e p="player_script.cs" t="Include" />
           </e>
         </e>

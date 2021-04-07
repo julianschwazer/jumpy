@@ -10,7 +10,9 @@ public class player_script : MonoBehaviour
     public float jumpheight = 10f; // jump height of the player
     public Rigidbody rb; // initialize rigidbody 
     private bool ballIsJumpable = true; // boolean to only jump the ball is jumpable
-
+    
+    public GameObject Floor;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,11 +35,11 @@ public class player_script : MonoBehaviour
         }
 
     }
-
+    
     // Set back the variable to allow another jump
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Jumpable")
+        if (collision.gameObject.tag == "Jumpable") 
         {
             ballIsJumpable = true;
         }

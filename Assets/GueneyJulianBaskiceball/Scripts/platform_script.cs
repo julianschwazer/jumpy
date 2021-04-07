@@ -5,29 +5,31 @@ using UnityEngine;
 
 public class platform_script : MonoBehaviour
 {
-    public GameObject Player;
-    public Vector3[] waypoints;
-    private int waypoint_active = 0;
-    private Vector3 target_position;
-    private float tolerance;
-    public float speed;
-    public float delay;
-    private float delay_timer;
-    public bool automatic;
+    public GameObject Player; //reference to the player
+
+    public Vector3[] waypoints; //array for the waypoints
+    private Vector3 target_position; //variable for target position of platform movement
     
+    private int waypoint_active = 0; //number of available waypoints for the editor and default value
     
-    // Start is called before the first frame update
+    private float tolerance; //tolerance for the movement
+    public float speed; //speed for the movement
+    public float delay; //delay before platform moves to the next waypoint
+    private float delay_timer; //delay timer 
+    
+    public bool automatic; //boolean for automatic start of the platform movement
+    
     void Start()
     {
+        //convert waypoint list to target positions
         if (waypoints.Length > 0)
         {
             target_position = waypoints[0];
         }
 
-        tolerance = speed * Time.deltaTime;
+        tolerance = speed * Time.deltaTime; //set a tolerance
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (transform.position != target_position)
@@ -40,6 +42,7 @@ public class platform_script : MonoBehaviour
         }
     }
 
+    //movement of the platform
     void MovePlatform()
     {
         Vector3 heading = target_position - transform.position;
@@ -50,7 +53,8 @@ public class platform_script : MonoBehaviour
             delay_timer = Time.time;
         }
     }
-
+    
+    //creating a delay before the platform moves to the next waypoint
     void UpdateTarget()
     {
         if (automatic)
@@ -61,7 +65,8 @@ public class platform_script : MonoBehaviour
             }
         }
     }
-
+    
+    //setting the next waypoint for the platform movement + reset to first waypoint
     void NextPlatform()
     {
         waypoint_active++;
@@ -72,16 +77,29 @@ public class platform_script : MonoBehaviour
 
         target_position = waypoints[waypoint_active];
     }
-
+    
+    //parent player to platform - player moves with the platform
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Player)
+       if (other.gameObject == Player)
             Player.transform.parent = transform;
     }
-
+    
+    //player separates from platform when jumping
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject == Player)
             Player.transform.parent = null;
     }
+    
+    // Set back the variable to allow another jump
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject == Player)
+        {
+            Debug.Log("i am here dude");
+            //transform.GetChild(1).localScale = new Vector3(5, 1, 5);
+        }
+    }
+
 }
