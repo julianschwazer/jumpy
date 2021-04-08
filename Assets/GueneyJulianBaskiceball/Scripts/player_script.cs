@@ -48,5 +48,10 @@ public class player_script : MonoBehaviour
         {
             ballIsJumpable = true;
         }
+        
+        if (collision.gameObject.tag == "Enemy") 
+        {
+            rb.AddForce(20,20,20,ForceMode.Acceleration);
+        }
     }
 }
