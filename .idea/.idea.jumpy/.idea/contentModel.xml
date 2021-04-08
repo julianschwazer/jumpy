@@ -10,6 +10,7 @@
             <e p="camera_ray_gueneyjulian.cs" t="Include" />
             <e p="platform_movement.cs" t="Include" />
             <e p="player_script.cs" t="Include" />
+            <e p="shooter_movement.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -19,8 +19,8 @@ public class platform_movement : MonoBehaviour
     private Vector3 target_position; // variable for target position of platform movement
 
     [Header("Platform Scaling")]
-    public bool scaleOnEnter; // enable scale on enter
-    public bool scaleOnLeave; // enable scale on leave
+    public bool scaleOnEnter = false; // enable scale on enter
+    public bool scaleOnLeave = false; // enable scale on leave
     
     public float scaleX; // variable for scaling
     public float scaleY; // variable for scaling
@@ -90,10 +90,12 @@ public class platform_movement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == Player)
-            if (scaleOnEnter == true)
-                this.transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
-
-        Player.transform.parent = transform;
+            if (scaleOnEnter)
+            {
+                transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
+            }
+        
+            Player.transform.parent = transform;
     }
 
     // player separates from platform when jumping
@@ -103,9 +105,10 @@ public class platform_movement : MonoBehaviour
         {
             Player.transform.parent = null;
 
-            if (scaleOnLeave == true)
-                this.transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
+            if (scaleOnLeave)
+            {
+                transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
+            }
         }
-
     }
 }

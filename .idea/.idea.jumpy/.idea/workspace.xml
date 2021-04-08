@@ -23,11 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/TestLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/TestLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_script.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_script.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +93,7 @@
       <workItem from="1615572098019" duration="396000" />
       <workItem from="1615572944171" duration="101000" />
       <workItem from="1615641051654" duration="921000" />
-      <workItem from="1617800995760" duration="13162000" />
+      <workItem from="1617800995760" duration="17996000" />
     </task>
     <servers />
   </component>
