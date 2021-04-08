@@ -22,9 +22,11 @@
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/basketball.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/basketball.physicMaterial" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/TestLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/TestLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_script.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -44,8 +46,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_script.cs" />
         <option value="$PROJECT_DIR$/Assets/Slingshot_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/fixed_scale.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +96,7 @@
       <workItem from="1615572098019" duration="396000" />
       <workItem from="1615572944171" duration="101000" />
       <workItem from="1615641051654" duration="921000" />
-      <workItem from="1617800995760" duration="7269000" />
+      <workItem from="1617800995760" duration="13162000" />
     </task>
     <servers />
   </component>

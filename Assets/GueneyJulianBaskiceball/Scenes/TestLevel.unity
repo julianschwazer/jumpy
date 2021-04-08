@@ -265,7 +265,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.2, z: 0.9}
-  m_Center: {x: 0, y: 0.6, z: 0}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &53719844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,12 +279,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1938121051}
-  waypoints:
-  - {x: -12, y: 20, z: 0}
-  - {x: 12, y: 20, z: 0}
   speed: 4
   delay: 0
   automatic: 1
+  waypoints:
+  - {x: -12, y: 20, z: 0}
+  - {x: 12, y: 20, z: 0}
+  scaleOnEnter: 1
+  scaleOnLeave: 0
+  scaleX: 40
+  scaleY: 1
+  scaleZ: 40
 --- !u!65 &53719845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -927,6 +932,7 @@ Transform:
   - {fileID: 1307865039}
   - {fileID: 2050073317}
   - {fileID: 660083393}
+  - {fileID: 1889719417}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1022,13 +1028,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1938121051}
+  speed: 4
+  delay: 0
+  automatic: 1
   waypoints:
   - {x: -12, y: 60, z: 0}
   - {x: -12, y: 60, z: -12}
   - {x: -12, y: 60, z: 12}
-  speed: 4
-  delay: 0
-  automatic: 1
+  scaleOnEnter: 0
+  scaleOnLeave: 0
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!65 &1307865042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1281,6 +1292,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527887428}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1889719416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1889719417}
+  - component: {fileID: 1889719422}
+  - component: {fileID: 1889719421}
+  - component: {fileID: 1889719420}
+  - component: {fileID: 1889719419}
+  - component: {fileID: 1889719418}
+  m_Layer: 0
+  m_Name: 01Platform_LeftRight (1)
+  m_TagString: Jumpable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889719417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12, y: 20, z: 0}
+  m_LocalScale: {x: 12, y: 1, z: 12}
+  m_Children: []
+  m_Father: {fileID: 901838355}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1889719418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 0.2, z: 0.9}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1889719419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85667375ae22d4e0c82d615eded666b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1938121051}
+  speed: 4
+  delay: 0
+  automatic: 1
+  waypoints:
+  - {x: -12, y: 20, z: 0}
+  - {x: 12, y: 20, z: 0}
+  scaleOnEnter: 0
+  scaleOnLeave: 1
+  scaleX: 60
+  scaleY: 1
+  scaleZ: 60
+--- !u!65 &1889719420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1889719421
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b5ee9761bbd354b8588feec3ad11ac9c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1889719422
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889719416}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1938121051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,10 +1475,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3f84ab675c74ec289914e3fab69cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  jumpheight: 22
-  rb: {fileID: 1938121054}
-  Floor: {fileID: 0}
+  mvmt_speed: 22
+  jump_height: 22
+  horizontalMovement: 0
 --- !u!54 &1938121054
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1487,12 +1631,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1938121051}
-  waypoints:
-  - {x: 12, y: 40, z: 0}
-  - {x: -12, y: 40, z: 0}
   speed: 4
   delay: 0
   automatic: 1
+  waypoints:
+  - {x: 12, y: 40, z: 0}
+  - {x: -12, y: 40, z: 0}
+  scaleOnEnter: 0
+  scaleOnLeave: 0
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!65 &2042835680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1616,13 +1765,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1938121051}
+  speed: 4
+  delay: 0
+  automatic: 1
   waypoints:
   - {x: -5, y: 80, z: 12}
   - {x: -12, y: 80, z: 12}
   - {x: 12, y: 80, z: 12}
-  speed: 4
-  delay: 0
-  automatic: 1
+  scaleOnEnter: 0
+  scaleOnLeave: 0
+  scaleX: 0
+  scaleY: 0
+  scaleZ: 0
 --- !u!65 &2050073320
 BoxCollider:
   m_ObjectHideFlags: 0
