@@ -53,5 +53,15 @@ public class player_script : MonoBehaviour
         {
             rb.AddForce(20,20,20,ForceMode.Acceleration);
         }
+        
+        if (collision.gameObject.tag == "WallLeft") 
+        {
+            rb.AddForce(300,0,0,ForceMode.Force);
+        }
+        
+        if (collision.gameObject.tag == "WallRight") 
+        {
+            rb.AddForce(-300,0,0,ForceMode.Force);
+        }
     }
 }

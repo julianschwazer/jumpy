@@ -1,12 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class platform_movement : MonoBehaviour
 {
     public GameObject Player; // reference to the player
-    
+
     private int waypoint_active = 0; // number of available waypoints for the editor and default value
     
     private float tolerance; // tolerance for the movement
@@ -26,8 +27,23 @@ public class platform_movement : MonoBehaviour
     public float scaleY; // variable for scaling
     public float scaleZ; // variable for scaling
 
+    private float initialX; //initial X scale
+    private float initialY; //initial Y scale
+    private float initialZ; //initial Z scale
+    private float currentScale = 0; 
+    private float targetScale = 100;
+    private const int FramesCount = 100;
+    private float ds; //delta scale
+    private const float AnimationTimeSeconds = 6; //enlargement time
+    private float deltaTime = AnimationTimeSeconds/FramesCount;
+
     void Start()
     {
+        ds = (targetScale - currentScale)/FramesCount; 
+        initialX = transform.localScale.x;
+        initialY = transform.localScale.y;
+        initialZ = transform.localScale.z;
+            
         //convert waypoint list to target positions
         if (waypoints.Length > 0)
         {
@@ -92,10 +108,11 @@ public class platform_movement : MonoBehaviour
         if (other.gameObject == Player)
             if (scaleOnEnter)
             {
-                transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
+                StartCoroutine(Enlarge());
             }
         
             Player.transform.parent = transform;
+            
     }
 
     // player separates from platform when jumping
@@ -107,8 +124,34 @@ public class platform_movement : MonoBehaviour
 
             if (scaleOnLeave)
             {
-                transform.localScale = new Vector3(scaleX, scaleY, scaleZ);
+                StartCoroutine(Enlarge());
             }
+        }
+    }
+
+    private IEnumerator Enlarge() //enlargement animation
+    { 
+        bool upScale = true;
+        while (upScale) 
+        {
+            currentScale += ds; //current scale increased by delta scale
+            if (currentScale > targetScale) //if current scale reaches target scale stop enlarging
+            {
+                upScale = false;
+                currentScale = targetScale;
+            }
+
+            float currentXscale = (scaleX - initialX) / 100 * currentScale + initialX; //X scale percentage 
+            float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; //Y scale percentage
+            float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; //Z scale percentage
+
+            var prevParent = Player.transform.parent; //remember the previous parent
+            
+            Player.transform.parent = null; //so that player doesn't also scale with platform
+            transform.localScale = new Vector3(currentXscale,currentYscale,currentZscale); //update the scale
+            Player.transform.parent = prevParent; //reattach the player to the previous parrent
+            
+            yield return new WaitForSeconds(deltaTime);
         }
     }
 }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Jumpable
   - Enemy
+  - WallLeft
+  - WallRight
+  - WallBack
   layers:
   - Default
   - TransparentFX
