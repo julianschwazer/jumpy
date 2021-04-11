@@ -30,15 +30,17 @@ public class platform_movement : MonoBehaviour
     private float initialX; //initial X scale
     private float initialY; //initial Y scale
     private float initialZ; //initial Z scale
-    private float currentScale = 0; 
-    private float targetScale = 100;
-    private const int FramesCount = 100;
-    private float ds; //delta scale
-    private const float AnimationTimeSeconds = 6; //enlargement time
-    private float deltaTime = AnimationTimeSeconds/FramesCount;
+    
+    private float currentScale = 0; // current scale of the platform
+    private float targetScale = 100; // target scale of the platform
+    private const int FramesCount = 100; // frame count
+    private float ds; // delta scale
+    private const float AnimationTimeSeconds = 6; // scaling time in s
+    private float deltaTime = AnimationTimeSeconds/FramesCount; // scaling time
 
     void Start()
     {
+        // setting default values for the scaling platforms
         ds = (targetScale - currentScale)/FramesCount; 
         initialX = transform.localScale.x;
         initialY = transform.localScale.y;
@@ -112,7 +114,6 @@ public class platform_movement : MonoBehaviour
             }
         
             Player.transform.parent = transform;
-            
     }
 
     // player separates from platform when jumping
@@ -129,13 +130,13 @@ public class platform_movement : MonoBehaviour
         }
     }
 
-    private IEnumerator Enlarge() //enlargement animation
+    private IEnumerator Enlarge() // platform scaling animation
     { 
         bool upScale = true;
         while (upScale) 
         {
-            currentScale += ds; //current scale increased by delta scale
-            if (currentScale > targetScale) //if current scale reaches target scale stop enlarging
+            currentScale += ds; // current scale increased by delta scale
+            if (currentScale > targetScale) // if current scale reaches target scale stop enlarging
             {
                 upScale = false;
                 currentScale = targetScale;
@@ -145,11 +146,11 @@ public class platform_movement : MonoBehaviour
             float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; //Y scale percentage
             float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; //Z scale percentage
 
-            var prevParent = Player.transform.parent; //remember the previous parent
+            var prevParent = Player.transform.parent; // remember the previous parent
             
-            Player.transform.parent = null; //so that player doesn't also scale with platform
+            Player.transform.parent = null; // so that player doesn't also scale with platform
             transform.localScale = new Vector3(currentXscale,currentYscale,currentZscale); //update the scale
-            Player.transform.parent = prevParent; //reattach the player to the previous parrent
+            Player.transform.parent = prevParent; // reattach the player to the previous parrent
             
             yield return new WaitForSeconds(deltaTime);
         }

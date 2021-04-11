@@ -14,7 +14,7 @@ public class shooter_movement : MonoBehaviour
         startPos = transform.position; // setting starting position
     }
     
-    // Left and Right Movement
+    // Left and Right Movement for the Shooters
     void Update ()
     {
         Vector3 v = startPos;
