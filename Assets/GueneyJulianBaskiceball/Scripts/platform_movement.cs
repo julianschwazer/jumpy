@@ -35,10 +35,14 @@ public class platform_movement : MonoBehaviour
     private float targetScale = 100; // target scale of the platform
     private const int FramesCount = 200; // frame count = scaling speed
     private float ds; // delta scale
-    private const float AnimationTimeSeconds = 6; // scaling time in s
+    private const float AnimationTimeSeconds = 2; // scaling time in s
     private float deltaTime = AnimationTimeSeconds/FramesCount; // scaling
+   
+    private float tileX = 5; 
+    private float tileY = 5;
+    private float initTileX = 1;
+    private float initTileY = 1;
 
-    
     void Start()
     {
         // setting default values for the scaling platforms
@@ -130,8 +134,9 @@ public class platform_movement : MonoBehaviour
             }
         }
     }
-
-    private IEnumerator Enlarge() // platform scaling animation
+    
+    // platform scaling animation
+    private IEnumerator Enlarge() 
     { 
         bool upScale = true;
         while (upScale) 
@@ -146,7 +151,12 @@ public class platform_movement : MonoBehaviour
             float currentXscale = (scaleX - initialX) / 100 * currentScale + initialX; //X scale percentage 
             float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; //Y scale percentage
             float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; //Z scale percentage
+           
+            float currentTileX = (tileX - initTileX) / 100 * currentScale + initTileX; //tile X scale percentage 
+            float currentTileY = (tileY - initTileY) / 100 * currentScale + initTileY; //tile Y scale percentage
             
+            GetComponent<Renderer>().material.mainTextureScale = new Vector2(currentTileX, currentTileY); //update the tile scale
+
             var prevParent = Player.transform.parent; // remember the previous parent
             
             Player.transform.parent = null; // so that player doesn't also scale with platform
