@@ -23,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +46,8 @@
         <option value="$PROJECT_DIR$/Assets/Slingshot_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/fixed_scale.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" />
-        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" />
       </list>
     </option>
@@ -101,7 +98,7 @@
       <workItem from="1617800995760" duration="18871000" />
       <workItem from="1617963805835" duration="743000" />
       <workItem from="1617976742138" duration="14201000" />
-      <workItem from="1618144885030" duration="818000" />
+      <workItem from="1618144885030" duration="3903000" />
     </task>
     <servers />
   </component>
@@ -126,10 +123,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1408" y="125" width="1052" height="1129" key="VCS.FileHistoryDialog" timestamp="1617812562623">
+    <state x="1408" y="125" width="1052" height="1129" key="VCS.FileHistoryDialog" timestamp="1618145983101">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1408" y="125" width="1052" height="1129" key="VCS.FileHistoryDialog/0.25.2560.1330/-1440.25.1440.875@0.25.2560.1330" timestamp="1617812562623" />
+    <state x="1408" y="125" width="1052" height="1129" key="VCS.FileHistoryDialog/0.25.2560.1330/-1440.25.1440.875@0.25.2560.1330" timestamp="1618145983101" />
     <state x="562" y="246" key="run.anything.popup" timestamp="1617977606931">
       <screen x="71" y="25" width="1609" height="1025" />
     </state>

@@ -33,11 +33,12 @@ public class platform_movement : MonoBehaviour
     
     private float currentScale = 0; // current scale of the platform
     private float targetScale = 100; // target scale of the platform
-    private const int FramesCount = 100; // frame count
+    private const int FramesCount = 200; // frame count = scaling speed
     private float ds; // delta scale
     private const float AnimationTimeSeconds = 6; // scaling time in s
-    private float deltaTime = AnimationTimeSeconds/FramesCount; // scaling time
+    private float deltaTime = AnimationTimeSeconds/FramesCount; // scaling
 
+    
     void Start()
     {
         // setting default values for the scaling platforms
@@ -145,7 +146,7 @@ public class platform_movement : MonoBehaviour
             float currentXscale = (scaleX - initialX) / 100 * currentScale + initialX; //X scale percentage 
             float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; //Y scale percentage
             float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; //Z scale percentage
-
+            
             var prevParent = Player.transform.parent; // remember the previous parent
             
             Player.transform.parent = null; // so that player doesn't also scale with platform

@@ -32,8 +32,11 @@ public class player_script : MonoBehaviour
         }
         
 
-        // Jump Movement - Up with Spacebar, just works when Ball is on the floor
-        if (Input.GetButtonDown("Jump") && ballIsJumpable)
+        // Jump Movement – Allowing the Ball to jump with all "Up-Keys", SpaceBar and MouseButton
+        if (Input.GetButtonDown("Jump") && ballIsJumpable
+            || Input.GetMouseButtonDown(0) && ballIsJumpable
+            || Input.GetKeyDown(KeyCode.UpArrow) && ballIsJumpable
+            || Input.GetKeyDown(KeyCode.W) && ballIsJumpable)
         {
             rb.AddForce(new Vector3(0, jump_height,0), ForceMode.Impulse);
             ballIsJumpable = false;
