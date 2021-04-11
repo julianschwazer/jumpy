@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
