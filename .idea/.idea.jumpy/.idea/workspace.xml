@@ -23,90 +23,281 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/Cylinder (3).controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/Cylinder (3).controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/left and right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/left and right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/rotate.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/rotate.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/shooter_clip.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/shooter_clip.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/up and down.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Animations/up and down.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/acoustic foam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/acoustic foam.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/basketball.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/basketball.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/floor_wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/floor_wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/glass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/glass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/grass platform.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/grass platform.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/grass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/grass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor 2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor 2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/plastic floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/platform_wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/platform_wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/rubber.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/rubber.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sand platform.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sand platform.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sand.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sand.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/target_finish.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/target_finish.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/tennis 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/tennis 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/tennis.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/tennis.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/transparent.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/transparent.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/wall_texture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/wall_texture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basket.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basket.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/source.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/source/LP_Basketball.obj.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/source/LP_Basketball.obj.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Baskeball_cavity.tga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Baskeball_cavity.tga.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Baskeball_occlusion.tga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Baskeball_occlusion.tga.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Base_Color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Base_Color.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Normal_OpenGL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Normal_OpenGL.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Models/basketball/textures/Basketball_Roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Capsule.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Capsule.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Sphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/Sphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/basket.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/OldVersion/basket.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/Platform.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Prefabs/Platform.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/Sci-Fi.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/Images/finish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/Images/finish.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/_MainTex.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/_MainTex.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/acoustic foam.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/acoustic foam.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/net 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/padded fabric.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/padded fabric.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/padded wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/padded wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Materials/sci-fi plate 5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/BallsyJump.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scenes/BallsyJump.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_ray_gueneyjulian.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/camera_ray_gueneyjulian.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Acoustic_Foam_002_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Material_1567.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Acoustic_Foam_002_SD/Material_1567.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Alpha_Brush_Stitches_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Material_1558.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Alpha_Brush_Stitches_001_SD/Material_1558.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Baskeball_occlusion.tga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Baskeball_occlusion.tga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Normal_OpenGL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Normal_OpenGL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Basketball_textures/Basketball_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Fabric_Mesh_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Material_1563.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Mesh_001_SD/Material_1563.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Fabric_Padded_006_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Material_1803.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Fabric_Padded_006_SD/Material_1803.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Material_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Material_999.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Base_Color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Base_Color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_Plate_019a_SD/Metal_Plate_019a_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Material_956.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Material_956.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Metal_plate_19_SD/Metal_Plate_019_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Material_1657.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Material_1657.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_basecolor copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_basecolor copy.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Rough_001_SD 1/Plastic_Rough_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Material_1645.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Material_1645.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_opacity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_opacity.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_opacity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_opacity.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Plastic_Safety_Fence_001_SD/Plastic_Safety_Fence_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Material_1130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Material_1130.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Rubber_Sole_001_SD/Rubber_Sole_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Material_1478.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Material_1478.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_baseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_baseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sand_005_SD/Sand_005_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Material_1522.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Material_1522.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci-Fi_Padded_Fabric_002_SD/Sci-Fi_Padded_Fabric_002_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Material_1583.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Material_1583.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_ambientOcclusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_ambientOcclusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_basecolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_basecolor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_opacity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_opacity.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Sci_fi_Metal_Panel_001_SD/Sci_fi_Metal_Panel_001_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_COLOR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_COLOR.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_DISP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_DISP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_NORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_NORM.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_OCC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_OCC.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_ROUGH.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/Wood Floor 005_SD/Wood_Floor_005_ROUGH.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_metallic.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_metallic.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_normal-ogl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_normal-ogl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/older-padded-leather-unity/older-padded-leather_preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_metallic.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_metallic.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_normal-ogl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_normal-ogl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/stylized-grass1-unity/stylized-grass1_preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_metallic.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_metallic.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_normal-ogl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_normal-ogl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Textures/warped-sheet-metal-unity/warped-sheet-metal_preview.jpg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,9 +308,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -128,8 +316,8 @@
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/fixed_scale.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/shooter_movement.cs" />
-        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/platform_movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBaskiceball/Scripts/player_script.cs" />
       </list>
     </option>
   </component>
@@ -181,6 +369,7 @@
       <workItem from="1617976742138" duration="14201000" />
       <workItem from="1618144885030" duration="4262000" />
       <workItem from="1618155247183" duration="4322000" />
+      <workItem from="1618167241913" duration="1744000" />
     </task>
     <servers />
   </component>

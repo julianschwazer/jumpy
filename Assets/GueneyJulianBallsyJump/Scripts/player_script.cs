@@ -54,17 +54,17 @@ public class player_script : MonoBehaviour
         // Adding Force to the enemy so that they are pushing the player away
         if (collision.gameObject.tag == "Enemy") 
         {
-            rb.AddForce(20,20,20,ForceMode.Acceleration);
+            rb.AddForce(200,200,200,ForceMode.Force);
         }
         
         // Adding Force to the walls so that the player is not able to glitch through them
         if (collision.gameObject.tag == "WallLeft") 
         {
-            rb.AddForce(300,0,0,ForceMode.Force);
+            rb.AddForce(200,0,0,ForceMode.Force);
         }
         if (collision.gameObject.tag == "WallRight") 
         {
-            rb.AddForce(-300,0,0,ForceMode.Force);
+            rb.AddForce(-200,0,0,ForceMode.Force);
         }
     }
 }
