@@ -9,6 +9,8 @@ TagManager:
   - WallLeft
   - WallRight
   - WallBack
+  - FlyingAreaEnter
+  - FlyingAreaLeave
   layers:
   - Default
   - TransparentFX
