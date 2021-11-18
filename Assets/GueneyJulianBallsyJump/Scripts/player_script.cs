@@ -10,7 +10,7 @@ public class player_script : MonoBehaviour
     private Rigidbody rb; // initialize rigidbody 
     private bool birdIsJumpable = true; // boolean to enable/disable the jumping
     private bool birdIsFlyable = false; // boolean to enable/disable the flying
-    private bool birdIsFlapable = false;
+    private bool birdIsFlapable = false; // boolean if the bird kan flap again
 
     // PUBLIC Variables for the editor
     [Header("Player Jumping Settings")]
@@ -18,11 +18,10 @@ public class player_script : MonoBehaviour
     public float jump_height = 10f; // jump height of the player
 
     [Header("Player Flying Settings")] 
-    public float fly_horizontalspeed = 10f;
-    public float fly_height = 2f;
-    public float fly_flaptime = 2f;
+    public float fly_horizontalspeed = 10f; // horizontal movement speed while flying
+    public float fly_height = 2f; // amount of force for flapping
+    public float fly_flaptime = 2f; // time the flap is blocked after flapping
     
-    // Start
     void Start()
     {
         rb = GetComponent<Rigidbody>(); // reference to rigidbody component
@@ -40,18 +39,18 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.W) && birdIsJumpable)
             {
                 rb.AddForce(new Vector3(0, jump_height,0), ForceMode.Impulse);
-                birdIsJumpable = false;
+                birdIsJumpable = false; // limit infinite jumping
             }
         }
 
         // Vertical Movement – Flying/flapping the wings with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsFlyable)
         {
-            // Horizontal Movement
+            // Horizontal Movement - left and right
             float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
             rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
 
-            // Vertical Movement
+            // Vertical Movement - flying through flapping
             if (Input.GetButtonDown("Jump") && birdIsFlapable
                 || Input.GetMouseButtonDown(0) && birdIsFlapable
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsFlapable
@@ -73,15 +72,13 @@ public class player_script : MonoBehaviour
                 birdIsJumpable = true;
             }
         }
-        
-        
+
         // Adding Force to the enemy so that they are pushing the player away
         if (collision.gameObject.CompareTag("Enemy")) 
         {
             rb.AddForce(200,200,200,ForceMode.Force);
         }
-        
-        
+
         // Adding Force to the walls so that the player is not able to glitch through them
         if (collision.gameObject.CompareTag("WallLeft")) 
         {
@@ -111,6 +108,7 @@ public class player_script : MonoBehaviour
         }
     }
     
+    // Coroutine for limiting the amount of consecutive flaps
     private IEnumerator DisableFlapping() {
         birdIsFlapable = false;
  
