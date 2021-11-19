@@ -21,6 +21,10 @@ public class player_script : MonoBehaviour
     public float fly_horizontalspeed = 10f; // horizontal movement speed while flying
     public float fly_height = 2f; // amount of force for flapping
     public float fly_flaptime = 2f; // time the flap is blocked after flapping
+    public float fly_optimalflaptime = 2f;
+    private float fly_lastflaptime = 0;
+    private float fly_velocity;
+    
     
     void Start()
     {
@@ -30,6 +34,8 @@ public class player_script : MonoBehaviour
     // Update
     void Update()
     {
+        fly_velocity = -rb.velocity.y;
+
         // Vertical Movement - Jumping with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsJumpable)
         {
@@ -56,7 +62,11 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsFlapable
                 || Input.GetKeyDown(KeyCode.W) && birdIsFlapable)
             {
-                rb.AddForce(new Vector3(0, fly_height,0), ForceMode.Impulse);
+                float fly_flaperror = 1.2f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime)));
+                fly_lastflaptime = Time.realtimeSinceStartup;
+                Debug.Log(fly_flaperror);
+                
+                rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse);
                 StartCoroutine(DisableFlapping());
             }
         }
@@ -99,6 +109,7 @@ public class player_script : MonoBehaviour
             birdIsFlyable = true;
             birdIsFlapable = true;
             Debug.Log("I am flying");
+            fly_lastflaptime = Time.realtimeSinceStartup;
         }
         if (trigger.gameObject.CompareTag("FlyingAreaLeave"))
         {
