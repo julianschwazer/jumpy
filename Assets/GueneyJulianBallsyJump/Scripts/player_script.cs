@@ -21,9 +21,9 @@ public class player_script : MonoBehaviour
     public float fly_horizontalspeed = 10f; // horizontal movement speed while flying
     public float fly_height = 2f; // amount of force for flapping
     public float fly_flaptime = 2f; // time the flap is blocked after flapping
-    public float fly_optimalflaptime = 2f;
-    private float fly_lastflaptime = 0;
-    private float fly_velocity;
+    public float fly_optimalflaptime = 2f; // optimal time between to flap to gain maximum height
+    private float fly_lastflaptime = 0; // variable to save the time of the last flap
+    private float fly_velocity; // velocity of the bird for more force on fast falling
     
     
     void Start()
@@ -34,7 +34,7 @@ public class player_script : MonoBehaviour
     // Update
     void Update()
     {
-        fly_velocity = -rb.velocity.y;
+        fly_velocity = -rb.velocity.y; // setting the velocity for usage with force
 
         // Vertical Movement - Jumping with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsJumpable)
@@ -62,12 +62,14 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsFlapable
                 || Input.GetKeyDown(KeyCode.W) && birdIsFlapable)
             {
+                // adding an optimal flaptime for maximum height-gain ...and limiting effect of fast flapping
                 float fly_flaperror = 1.2f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime)));
                 fly_lastflaptime = Time.realtimeSinceStartup;
                 Debug.Log(fly_flaperror);
                 
+                // adding the force to the player - depending on the velocity, flaptime and height from editor.
                 rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse);
-                StartCoroutine(DisableFlapping());
+                StartCoroutine(DisableFlapping()); // limiting the minimum time between flaps
             }
         }
     }
@@ -108,8 +110,8 @@ public class player_script : MonoBehaviour
             birdIsJumpable = false;
             birdIsFlyable = true;
             birdIsFlapable = true;
-            Debug.Log("I am flying");
             fly_lastflaptime = Time.realtimeSinceStartup;
+            Debug.Log("I am flying");
         }
         if (trigger.gameObject.CompareTag("FlyingAreaLeave"))
         {
@@ -121,11 +123,9 @@ public class player_script : MonoBehaviour
     
     // Coroutine for limiting the amount of consecutive flaps
     private IEnumerator DisableFlapping() {
-        birdIsFlapable = false;
- 
-        yield return new WaitForSeconds(fly_flaptime);
-
-        birdIsFlapable = true;
+        birdIsFlapable = false; // disable the flapping
+        yield return new WaitForSeconds(fly_flaptime); // wait for x seconds
+        birdIsFlapable = true; // enable the flapping again
     }
     
 }

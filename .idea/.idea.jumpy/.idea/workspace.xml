@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,8 @@
       <workItem from="1618155247183" duration="4322000" />
       <workItem from="1618167241913" duration="1744000" />
       <workItem from="1637237110594" duration="10582000" />
-      <workItem from="1637329694032" duration="1650000" />
+      <workItem from="1637329694032" duration="1925000" />
+      <workItem from="1637334513692" duration="942000" />
     </task>
     <servers />
   </component>
