@@ -5285,9 +5285,9 @@ MonoBehaviour:
   jump_speed: 10
   jump_height: 20
   fly_horizontalspeed: 30
-  fly_height: 10
-  fly_flaptime: 1
-  fly_optimalflaptime: 1.5
+  fly_height: 12
+  fly_flaptime: 1.25
+  fly_optimalflaptime: 2
   fly_leftwing: {fileID: 5402473709578214253}
   fly_rightwing: {fileID: 4162828912223743133}
 --- !u!1 &1750772928
