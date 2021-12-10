@@ -64,6 +64,9 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsJumpable
                 || Input.GetKeyDown(KeyCode.W) && birdIsJumpable)
             {
+                // start jumping animation
+                
+                // add jumping force
                 rb.AddForce(new Vector3(0, jump_height,0), ForceMode.Impulse);
                 birdIsJumpable = false; // limit infinite jumping
             }
@@ -82,17 +85,21 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.W) && birdIsFlapable)
             {
                 // start flying animation
-                animator.SetBool("isFlying", true);
+                animator.SetTrigger("isFlying");
+                animator.ResetTrigger("isFlying");
                 
                 // adding an optimal flaptime for maximum height-gain ...and limiting effect of fast flapping
-                float fly_flaperror = 1.2f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime)));
-                fly_lastflaptime = Time.realtimeSinceStartup;
+                float fly_flaperror = 1.5f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime) * 0.75f));
                 Debug.Log(fly_flaperror);
+                fly_lastflaptime = Time.realtimeSinceStartup;
 
                 // adding the force to the player - depending on the velocity, flaptime and height from editor.
                 rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse);
-                StartCoroutine(DisableFlapping()); // limiting the minimum time between flaps
+                //StartCoroutine(DisableFlapping()); // limiting the minimum time between flaps
+                
             }
+            
+            //animator.SetBool("isFlying", false);
             
         }
     }
