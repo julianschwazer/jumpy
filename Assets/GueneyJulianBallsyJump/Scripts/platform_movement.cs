@@ -33,7 +33,7 @@ public class platform_movement : MonoBehaviour
     
     private float currentScale = 0; // start for percentage calculation
     private float targetScale = 100; // end for percentage calculation
-    private const int FramesCount = 200; // frame count = scaling speed
+    private const int FramesCount = 100; // frame count = scaling speed
     private float ds; // delta scale
     private const float AnimationTimeSeconds = 2; // scaling time in s
     private float deltaTime = AnimationTimeSeconds/FramesCount; // scaling
@@ -42,6 +42,8 @@ public class platform_movement : MonoBehaviour
     private float tileY = 5; // target Y variable of tile scale
     private float initTileX = 1; // initial X variable of tile scale
     private float initTileY = 1; // initial Y variable of tile scale
+
+    private float positionY; // Y variable for platform position
 
     void Start()
     {
@@ -58,6 +60,8 @@ public class platform_movement : MonoBehaviour
         }
 
         tolerance = speed * Time.deltaTime; // set a tolerance
+
+        positionY = transform.localPosition.y; // given Y variable is the positionY
     }
 
     void Update()
@@ -116,6 +120,10 @@ public class platform_movement : MonoBehaviour
             if (scaleOnEnter)
             {
                 StartCoroutine(Enlarge());
+                /*
+                waypoints = null; // set waypoints to zero
+                target_position = new Vector3(0,positionY,0); // send the platform back to middle
+                */
             }
         
             Player.transform.parent = transform;

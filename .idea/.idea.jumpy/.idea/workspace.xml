@@ -23,24 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout 2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace 2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyFlying.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyFlying.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyStanding.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyStanding.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyWalking.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/EggBoyWalking.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/FlyAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/FlyAnimationController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Models/eggboy.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Models/eggboy.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +41,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +103,8 @@
       <workItem from="1637237110594" duration="10582000" />
       <workItem from="1637329694032" duration="1925000" />
       <workItem from="1637334513692" duration="942000" />
-      <workItem from="1641161150073" duration="6377000" />
+      <workItem from="1641161150073" duration="6667000" />
+      <workItem from="1641412543190" duration="4941000" />
     </task>
     <servers />
   </component>
