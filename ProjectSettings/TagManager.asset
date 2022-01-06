@@ -11,6 +11,7 @@ TagManager:
   - WallBack
   - FlyingAreaEnter
   - FlyingAreaLeave
+  - Nest
   layers:
   - Default
   - TransparentFX

@@ -26,7 +26,10 @@ public class player_script : MonoBehaviour
     private float fly_velocity; // velocity of the bird for more force on fast falling
     public GameObject fly_leftwing;
     public GameObject fly_rightwing;
+    public GameObject jump_leftleg;
+    public GameObject jump_rightleg;
     private bool fly_wings = false;
+    private bool jump_legs = true;
     
     
     // VARIABLES for the animations
@@ -44,7 +47,20 @@ public class player_script : MonoBehaviour
     void Update()
     {
         fly_velocity = -rb.velocity.y; // setting the velocity for usage with force
-
+        
+        // enable/disable player legs
+        if (jump_legs == true)
+        {
+            jump_leftleg.SetActive(true);
+            jump_rightleg.SetActive(true);
+        }
+        else
+        {
+            jump_leftleg.SetActive(false);
+            jump_rightleg.SetActive(false);
+        }
+        
+        // enable/disable player wings
         if (fly_wings == true)
         {
             fly_leftwing.SetActive(true);
@@ -146,6 +162,19 @@ public class player_script : MonoBehaviour
             birdIsFlyable = false;
             fly_wings = false;
             Debug.Log("I am leaving the fly area");
+        }
+
+        if (trigger.gameObject.CompareTag("Nest"))
+        {
+            // deactivate player movement
+            birdIsFlapable = false;
+            birdIsJumpable = false;
+            birdIsFlyable = false;
+            
+            fly_wings = false; // deactivate wings
+            jump_legs = false; // deactive legs
+
+            // WIN STATE
         }
     }
     
