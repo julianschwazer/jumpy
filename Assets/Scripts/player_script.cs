@@ -188,6 +188,8 @@ public class player_script : MonoBehaviour
             
             // WIN STATE
             rb.constraints = RigidbodyConstraints.FreezeAll;
+            FindObjectOfType<AudioManager>().Stop("GameMusic"); // play level sound
+            FindObjectOfType<AudioManager>().Play("Success"); // play level sound
         }
     }
     
