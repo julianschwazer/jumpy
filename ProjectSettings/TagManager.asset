@@ -12,6 +12,7 @@ TagManager:
   - FlyingAreaEnter
   - FlyingAreaLeave
   - Nest
+  - Branch
   layers:
   - Default
   - TransparentFX

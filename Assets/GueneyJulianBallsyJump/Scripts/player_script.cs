@@ -20,17 +20,21 @@ public class player_script : MonoBehaviour
     [Header("Player Flying Settings")] 
     public float fly_horizontalspeed = 10f; // horizontal movement speed while flying
     public float fly_height = 2f; // amount of force for flapping
-    public float fly_flaptime = 2f; // time the flap is blocked after flapping
+    //public float fly_flaptime = 2f; // time the flap is blocked after flapping
     public float fly_optimalflaptime = 2f; // optimal time between to flap to gain maximum height
     private float fly_lastflaptime = 0; // variable to save the time of the last flap
     private float fly_velocity; // velocity of the bird for more force on fast falling
+    
+    [Header("Player Special Settings")]
+    public float branch_flapblock;
+    
+    // VARIABLES for Player Model
     public GameObject fly_leftwing;
     public GameObject fly_rightwing;
     public GameObject jump_leftleg;
     public GameObject jump_rightleg;
     private bool fly_wings = false;
     private bool jump_legs = true;
-    
     
     // VARIABLES for the animations
     private Animator animator;
@@ -142,6 +146,12 @@ public class player_script : MonoBehaviour
         {
             rb.AddForce(-200,0,0,ForceMode.Force);
         }
+        
+        // Disable Flapping for a short time when you hit a branch
+        if (collision.gameObject.CompareTag("Branch"))
+        {
+            StartCoroutine(DisableFlapping());
+        }
     }
 
     private void OnTriggerEnter(Collider trigger)
@@ -173,17 +183,18 @@ public class player_script : MonoBehaviour
             
             fly_wings = false; // deactivate wings
             jump_legs = false; // deactive legs
-
+            
             // WIN STATE
+            rb.constraints = RigidbodyConstraints.FreezeAll;
         }
     }
     
     // Coroutine for limiting the amount of consecutive flaps
     private IEnumerator DisableFlapping() {
         birdIsFlapable = false; // disable the flapping
-        yield return new WaitForSeconds(fly_flaptime); // wait for x seconds
+        yield return new WaitForSeconds(branch_flapblock); // wait for x seconds
         birdIsFlapable = true; // enable the flapping again
-        animator.SetBool("isFlying", false);
+        animator.SetBool("isFlying", false); // cancel flying
     }
     
 }
