@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/FlyAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Animations/FlyAnimationController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scenes/PechVogel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,7 @@
       <workItem from="1637334513692" duration="942000" />
       <workItem from="1641161150073" duration="6667000" />
       <workItem from="1641412543190" duration="4941000" />
-      <workItem from="1641469322801" duration="6434000" />
+      <workItem from="1641469322801" duration="7052000" />
     </task>
     <servers />
   </component>
