@@ -117,7 +117,6 @@ public class player_script : MonoBehaviour
                 // adding the force to the player - depending on the velocity, flaptime and height from editor.
                 rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse);
                 //StartCoroutine(DisableFlapping()); // limiting the minimum time between flaps
-
             }
         }
     }
