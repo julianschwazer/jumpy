@@ -24,6 +24,7 @@ public class player_script : MonoBehaviour
     public float fly_optimalflaptime = 2f; // optimal time between to flap to gain maximum height
     private float fly_lastflaptime = 0; // variable to save the time of the last flap
     private float fly_velocity; // velocity of the bird for more force on fast falling
+    public float fly_drag;
     
     [Header("Player Special Settings")]
     public float branch_flapblock;
@@ -99,7 +100,7 @@ public class player_script : MonoBehaviour
         {
             float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
             rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
-            
+
             // Vertical Movement - flying through flapping
             if (Input.GetButtonDown("Jump") && birdIsFlapable
                 || Input.GetMouseButtonDown(0) && birdIsFlapable
@@ -166,6 +167,8 @@ public class player_script : MonoBehaviour
             fly_wings = true;
             fly_lastflaptime = Time.realtimeSinceStartup;
             Debug.Log("I am flying");
+            
+            rb.drag = fly_drag; // change drag of flying movement
         }
         if (trigger.gameObject.CompareTag("FlyingAreaLeave"))
         {
@@ -195,10 +198,14 @@ public class player_script : MonoBehaviour
     // Coroutine for limiting the amount of consecutive flaps
     private IEnumerator DisableFlapping() {
         FindObjectOfType<AudioManager>().Play("HitBranchSound"); // play flying sound
+        // PLACEHOLDER – VISUAL FEEDBACK FOR HIT ANIMATION
+        
+        // disable flapping and enable it after a few seconds
         birdIsFlapable = false; // disable the flapping
         yield return new WaitForSeconds(branch_flapblock); // wait for x seconds
         birdIsFlapable = true; // enable the flapping again
-        animator.SetBool("isFlying", false); // cancel flying
+        
+        animator.SetBool("isFlying", false); // cancel flying animation
     }
     
 }
