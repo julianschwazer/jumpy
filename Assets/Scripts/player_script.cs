@@ -20,7 +20,7 @@ public class player_script : MonoBehaviour
     [Header("Player Flying Settings")] 
     public float fly_horizontalspeed = 10f; // horizontal movement speed while flying
     public float fly_height = 2f; // amount of force for flapping
-    //public float fly_flaptime = 2f; // time the flap is blocked after flapping
+    public float fly_flappause = 0f; // time the flap is blocked after flapping
     public float fly_optimalflaptime = 2f; // optimal time between to flap to gain maximum height
     private float fly_lastflaptime = 0; // variable to save the time of the last flap
     private float fly_velocity; // velocity of the bird for more force on fast falling
@@ -98,8 +98,8 @@ public class player_script : MonoBehaviour
         // Vertical Movement – Flying/flapping the wings with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsFlyable)
         {
-            float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
-            rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
+           
+            //rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
 
             // Vertical Movement - flying through flapping
             if (Input.GetButtonDown("Jump") && birdIsFlapable
@@ -107,17 +107,23 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsFlapable
                 || Input.GetKeyDown(KeyCode.W) && birdIsFlapable)
             {
+                // animation and sound
                 animator.SetTrigger("isFlying"); // start flying animation
                 FindObjectOfType<AudioManager>().Play("FlapSound"); // play flying sound
 
-                // adding an optimal flaptime for maximum height-gain ...and limiting effect of fast flapping
-                float fly_flaperror = 1.5f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime) * 0.75f));
+                // vertical movement
+                float fly_flaperror = 1.5f - Math.Min(0.99f,Math.Abs(fly_optimalflaptime - (Time.realtimeSinceStartup-fly_lastflaptime) * 0.75f)); // adding an optimal flaptime for maximum height-gain ...and limiting effect of fast flapping
                 Debug.Log(fly_flaperror);
                 fly_lastflaptime = Time.realtimeSinceStartup;
+                
+                // horizontal movement
+                float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
 
-                // adding the force to the player - depending on the velocity, flaptime and height from editor.
-                rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse);
-                //StartCoroutine(DisableFlapping()); // limiting the minimum time between flaps
+                // adding the force to the player
+                rb.AddForce(new Vector3(horizontal, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse); // depending on the velocity, flaptime and height from editor.
+
+                // limiting the minimum time between flaps
+                StartCoroutine(PauseFlapping());
             }
         }
     }
@@ -195,7 +201,7 @@ public class player_script : MonoBehaviour
         }
     }
     
-    // Coroutine for limiting the amount of consecutive flaps
+    // Coroutine for disabling the flapping after hitting a branch
     private IEnumerator DisableFlapping() {
         FindObjectOfType<AudioManager>().Play("HitBranchSound"); // play flying sound
         // PLACEHOLDER – VISUAL FEEDBACK FOR HIT ANIMATION
@@ -203,6 +209,16 @@ public class player_script : MonoBehaviour
         // disable flapping and enable it after a few seconds
         birdIsFlapable = false; // disable the flapping
         yield return new WaitForSeconds(branch_flapblock); // wait for x seconds
+        birdIsFlapable = true; // enable the flapping again
+        
+        animator.SetBool("isFlying", false); // cancel flying animation
+    }
+    
+    // Coroutine for limiting the amount of consecutive flaps
+    private IEnumerator PauseFlapping() {
+        // disable flapping and enable it after a few seconds
+        birdIsFlapable = false; // disable the flapping
+        yield return new WaitForSeconds(fly_flappause); // wait for x seconds
         birdIsFlapable = true; // enable the flapping again
         
         animator.SetBool("isFlying", false); // cancel flying animation
