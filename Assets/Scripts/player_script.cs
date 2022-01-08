@@ -98,8 +98,7 @@ public class player_script : MonoBehaviour
         // Vertical Movement – Flying/flapping the wings with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsFlyable)
         {
-           
-            //rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
+           //rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
 
             // Vertical Movement - flying through flapping
             if (Input.GetButtonDown("Jump") && birdIsFlapable
@@ -107,6 +106,8 @@ public class player_script : MonoBehaviour
                 || Input.GetKeyDown(KeyCode.UpArrow) && birdIsFlapable
                 || Input.GetKeyDown(KeyCode.W) && birdIsFlapable)
             {
+                animator.SetBool("isFlying", false); // cancel flying animation
+                
                 // animation and sound
                 animator.SetTrigger("isFlying"); // start flying animation
                 FindObjectOfType<AudioManager>().Play("FlapSound"); // play flying sound
@@ -220,8 +221,6 @@ public class player_script : MonoBehaviour
         birdIsFlapable = false; // disable the flapping
         yield return new WaitForSeconds(fly_flappause); // wait for x seconds
         birdIsFlapable = true; // enable the flapping again
-        
-        animator.SetBool("isFlying", false); // cancel flying animation
     }
     
 }
