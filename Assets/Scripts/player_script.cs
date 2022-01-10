@@ -25,7 +25,7 @@ public class player_script : MonoBehaviour
     private float fly_lastflaptime = 0; // variable to save the time of the last flap
     private float fly_velocity; // velocity of the bird for more force on fast falling
     public float fly_drag;
-    
+
     [Header("Player Special Settings")]
     public float branch_flapblock;
     
@@ -98,9 +98,11 @@ public class player_script : MonoBehaviour
 
         // Vertical Movement – Flying/flapping the wings with all "Up-Keys", SpaceBar, and MouseButton
         if (birdIsFlyable)
-        {
-           //rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
-
+        { 
+            // horizontal movement
+            float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
+            rb.AddForce(new Vector3(horizontal, 0,0), ForceMode.Impulse);
+            
             // Vertical Movement - flying through flapping
             if (Input.GetButtonDown("Jump") && birdIsFlapable
                 || Input.GetMouseButtonDown(0) && birdIsFlapable
@@ -118,11 +120,8 @@ public class player_script : MonoBehaviour
                 Debug.Log(fly_flaperror);
                 fly_lastflaptime = Time.realtimeSinceStartup;
                 
-                // horizontal movement
-                float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * fly_horizontalspeed;
-
                 // adding the force to the player
-                rb.AddForce(new Vector3(horizontal, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse); // depending on the velocity, flaptime and height from editor.
+                rb.AddForce(new Vector3(0, (fly_height+fly_velocity)*fly_flaperror,0), ForceMode.Impulse); // depending on the velocity, flaptime and height from editor.
 
                 // limiting the minimum time between flaps
                 StartCoroutine(PauseFlapping());
