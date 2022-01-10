@@ -23,11 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f91374cf-6b5a-40ac-bae2-e6f1a4afdbfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jumpy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/FlyAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/FlyAnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PechVogel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PechVogel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/player_script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player_script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/player_script.cs" />
         <option value="$PROJECT_DIR$/Assets/GueneyJulianBallsyJump/Scripts/platform_movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/ParticleSpin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/player_script.cs" />
       </list>
     </option>
   </component>
@@ -70,9 +71,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -80,9 +80,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -112,6 +111,7 @@
       <workItem from="1641469322801" duration="11376000" />
       <workItem from="1641559832714" duration="5227000" />
       <workItem from="1641656979476" duration="1126000" />
+      <workItem from="1641813586668" duration="1328000" />
     </task>
     <servers />
   </component>
@@ -135,5 +135,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="813" y="427" width="672" height="678" key="search.everywhere.popup" timestamp="1641816046749">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="813" y="427" width="672" height="678" key="search.everywhere.popup/0.25.2560.1415/-1614.415.1614.1025@0.25.2560.1415" timestamp="1641816046749" />
   </component>
 </project>

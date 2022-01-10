@@ -34,6 +34,7 @@ public class player_script : MonoBehaviour
     public GameObject fly_rightwing;
     public GameObject jump_leftleg;
     public GameObject jump_rightleg;
+    public GameObject dizziness;
     private bool fly_wings = false;
     private bool jump_legs = true;
     
@@ -205,12 +206,14 @@ public class player_script : MonoBehaviour
     // Coroutine for disabling the flapping after hitting a branch
     private IEnumerator DisableFlapping() {
         FindObjectOfType<AudioManager>().Play("HitBranchSound"); // play flying sound
-        // PLACEHOLDER – VISUAL FEEDBACK FOR HIT ANIMATION
         
-        // disable flapping and enable it after a few seconds
+        
+        // disable flapping and enable it after a few seconds and visual feedback for the hit
         birdIsFlapable = false; // disable the flapping
+        dizziness.SetActive(true); // activate the particle effect
         yield return new WaitForSeconds(branch_flapblock); // wait for x seconds
         birdIsFlapable = true; // enable the flapping again
+        dizziness.SetActive(false); // deactivate the particle effect
         
         animator.SetBool("isFlying", false); // cancel flying animation
     }
