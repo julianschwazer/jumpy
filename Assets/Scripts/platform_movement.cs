@@ -144,34 +144,37 @@ public class platform_movement : MonoBehaviour
     }
     
     // platform scaling animation
-    private IEnumerator Enlarge() 
-    { 
-        bool upScale = true;
-        while (upScale) 
+    private IEnumerator Enlarge()
+    {
+        if (Player.transform.position.y > this.transform.position.y)
         {
-            currentScale += ds; // current scale increased by delta scale
-            if (currentScale > targetScale) // if current scale reaches target scale stop enlarging
+            bool upScale = true;
+            while (upScale) 
             {
-                upScale = false;
-                currentScale = targetScale;
-            }
+                currentScale += ds; // current scale increased by delta scale
+                if (currentScale > targetScale) // if current scale reaches target scale stop enlarging
+                {
+                    upScale = false;
+                    currentScale = targetScale;
+                }
 
-            float currentXscale = (scaleX - initialX) / 100 * currentScale + initialX; // X scale percentage 
-            float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; // Y scale percentage
-            float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; // Z scale percentage
+                float currentXscale = (scaleX - initialX) / 100 * currentScale + initialX; // X scale percentage 
+                float currentYscale = (scaleY - initialY) / 100 * currentScale + initialY; // Y scale percentage
+                float currentZscale = (scaleZ - initialZ) / 100 * currentScale + initialZ; // Z scale percentage
            
-            float currentTileX = (tileX - initTileX) / 100 * currentScale + initTileX; // tile X scale percentage 
-            float currentTileY = (tileY - initTileY) / 100 * currentScale + initTileY; // tile Y scale percentage
+                float currentTileX = (tileX - initTileX) / 100 * currentScale + initTileX; // tile X scale percentage 
+                float currentTileY = (tileY - initTileY) / 100 * currentScale + initTileY; // tile Y scale percentage
             
-            GetComponent<Renderer>().material.mainTextureScale = new Vector2(currentTileX, currentTileY); // update the tile scale
+                GetComponent<Renderer>().material.mainTextureScale = new Vector2(currentTileX, currentTileY); // update the tile scale
 
-            var prevParent = Player.transform.parent; // remember the previous parent
+                var prevParent = Player.transform.parent; // remember the previous parent
             
-            Player.transform.parent = null; // so that player doesn't also scale with platform
-            transform.localScale = new Vector3(currentXscale,currentYscale,currentZscale); // update the scale
-            Player.transform.parent = prevParent; // reattach the player to the previous parrent
+                Player.transform.parent = null; // so that player doesn't also scale with platform
+                transform.localScale = new Vector3(currentXscale,currentYscale,currentZscale); // update the scale
+                Player.transform.parent = prevParent; // reattach the player to the previous parrent
             
-            yield return new WaitForSeconds(deltaTime);
+                yield return new WaitForSeconds(deltaTime);
+            }
         }
     }
 }
