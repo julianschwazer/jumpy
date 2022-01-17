@@ -149,13 +149,13 @@ public class player_script : MonoBehaviour
         // Adding Force to the walls so that the player is not able to glitch through them
         if (collision.gameObject.CompareTag("WallLeft")) 
         {
-            rb.AddForce(200,0,0,ForceMode.Force);
+            rb.AddForce(400,0,0,ForceMode.Force);
         }
         if (collision.gameObject.CompareTag("WallRight")) 
         {
-            rb.AddForce(-200,0,0,ForceMode.Force);
+            rb.AddForce(-400,0,0,ForceMode.Force);
         }
-        
+
         // Disable Flapping for a short time when you hit a branch
         if (collision.gameObject.CompareTag("Branch"))
         {

@@ -13,6 +13,7 @@ TagManager:
   - FlyingAreaLeave
   - Nest
   - Branch
+  - WallFront
   layers:
   - Default
   - TransparentFX
